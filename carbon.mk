@@ -22,7 +22,7 @@ PRODUCT_RELEASE_NAME := Odin
 OVERLAY_TARGET := pa_xxhdpi
 
 # device
-$(call inherit-product, device/sony/yuga/full_odin.mk)
+$(call inherit-product, device/sony/odin/full_odin.mk)
 
 # gsm
 $(call inherit-product, vendor/carbon/config/common_gsm.mk)
